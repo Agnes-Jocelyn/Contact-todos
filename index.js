@@ -10,6 +10,7 @@ axios.get('http://localhost:3000/contacts-todos')
         const itemHtml = `
         <div class="col-sm-4">
         <br>
+        <br>
         Name : ${name}
         <br>
         Address : ${address}
@@ -19,12 +20,14 @@ axios.get('http://localhost:3000/contacts-todos')
         Phone  : ${phone}
         <br>
         Company : ${company}
-        <br>
-            <button onclick="hapus(${id})" class="btn btn-primary">
-                <i class="fas fa-trash"></i>
+        <br><br>
+            <button onclick="hapus(${id})" class="btn btn-dark">
+                <i class="fas fa-trash"></i> Delete
             </button
             <br>
-            <button onclick="edit(${id})" class="btn btn-primary">Edit </button
+            <button onclick="edit(${id})" class="btn btn-dark">
+                <i class="fas fa-edit"> </i> Edit
+            </button
         </div>
         
         

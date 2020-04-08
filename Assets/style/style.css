@@ -1,29 +1,42 @@
 body{
     margin:0px;
     padding: 0px;
-    font-size: 16px;
-    background-image: url(../img/bg.jpg);
+    font-size: 24px;
+    background-image: url(../img/bg2.jpg);
     background-repeat: no-repeat;
+    font-family: 'Fjalla One', sans-serif;
     
 }
+
+header{
+    height: 45px;
+    background-color: rgb(60, 0, 83);
+}
+
+span{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+
 h1{
     padding-top: 5%;
     text-align: center;
 }
 
 .input {
-    
+    color: rgb(32, 32, 32);
     margin-left: 45%;
 }
 
 h2{
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 
 hr{
     width: 250px;
-    border-top: 6px solid rgb(16, 7, 95);
+    border-top: 6px solid rgb(77, 1, 100);
 
 }
 
