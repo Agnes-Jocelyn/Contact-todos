@@ -21,6 +21,12 @@ h2{
     text-align: center;
 }
 
+hr{
+    width: 250px;
+    border-top: 6px solid rgb(16, 7, 95);
+
+}
+
 
 .col-sm-4{
     padding-left: 110px;
